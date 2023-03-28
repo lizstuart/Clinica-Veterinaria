@@ -9,18 +9,26 @@ Linguagem utilizada: JavaScript.
     - Instale bibliotecas: express, knex, bcrypt, cors, dotenv e pg `npm install express knex bcrypt cors pg dotenv`
     - Instale o nodemon como dependência para testes: `npm -D nomemon`
    
-3. Crie a pasta `src` e os arquivos index.js, rotas.js e conexão.js.
+3. Crie a pasta `src` e os arquivos `index.js`, `rotas.js` e `conexão.js`.
     - No index.js instancie o express, utilize o JSON como método de retorno, importe as rotas e instancie e configure o dotenv para usar as varaiáveis de ambiente;
     - No rotas.js crie as rotas usando os endpoints: get, post, put e delete (de acordo com a função desejada);
     - No conexão.js instancie e exporte o knex usando client e conecte com o banco de dados PostgreSql, usando a seguinte constante:
       `const knex const knex = require('knex')({
+      
     client: 'pg',
+    
     connection: {
+    
         host: 'o local',
+        
         port: numero da porta,
+        
         user: 'nome do usuario',
+        
         password: 'senha do usuario',
+        
         database: 'nome do banco de dados'
+        
     }
 })`
     
