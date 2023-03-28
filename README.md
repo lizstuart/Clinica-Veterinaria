@@ -30,4 +30,8 @@ Linguagem utilizada: JavaScript.
         
     }
 })`
-    
+ 
+ 4. Crie a pasta controladores e dentro dela o arquivo animais.js. Nesse artuivo devem ser criadas as funções dos endpoints: `get`, `post`, `put` e `delete`.
+        - Importe o knex de conexão.js e o bcrypt para cripitografar rotas.
+ 
+ 5. Atualize o campo `scripts` do arquivo `package.json` para 'dev': 'nodemon ./src/index.js' e use o comando `npm run dev` para subir o servidor.
