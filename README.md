@@ -13,7 +13,8 @@ Linguagem utilizada: JavaScript.
     - No index.js instancie o express, utilize o JSON como método de retorno, importe as rotas e instancie e configure o dotenv para usar as varaiáveis de ambiente;
     - No rotas.js crie as rotas usando os endpoints: get, post, put e delete (de acordo com a função desejada);
     - No conexão.js instancie e exporte o knex usando client e conecte com o banco de dados PostgreSql, usando a seguinte constante:
-      `const knex const knex = require('knex')({
+     
+     `const knex const knex = require('knex')({
       
     client: 'pg',
     
